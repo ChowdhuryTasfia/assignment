@@ -1,0 +1,19 @@
+.container{
+    padding: 95px 120px ;
+
+}
+#logo{
+    width: 120px;
+    height: 32px;
+}
+.nvt a{
+    color: #3A3A3A;
+    text-decoration: none;
+    margin-left: ;
+    font-size: ;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
