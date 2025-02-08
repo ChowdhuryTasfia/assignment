@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .container{
     padding: 95px 120px ;
 
@@ -9,11 +10,96 @@
 .nvt a{
     color: #3A3A3A;
     text-decoration: none;
-    margin-left: ;
-    font-size: ;
+    margin-left:34px ;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    align-items: center;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    width: 100vw;
+    box-sizing: border-box;
 }
+.barStyle{
+    color: #1B1B1B;
+}
+#bar{
+    display: none;
+}
+/* banner part style */
+.banner{
+display: flex;
+align-items: center;
+
+}
+.halfWidth{
+    width: 50%;
+}
+.mainTitle{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.Mtitle{
+    height: 270px;
+    width: 582px;
+    line-height: 70px;
+    color:  #3A3A3A;
+}
+#mText{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -30px;
+}
+.btn{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 41px;
+}
+.rightDiv{
+    display: flex;
+    justify-content: end;
+}
+#camImg{
+    width: 475px;
+    height: auto;
+}
+
+@media screen and (max-width:1024px) {}
+@media screen and (max-width:834px) {
+    #camImg{
+        height: 400px;
+        width: auto;
+        margin-top: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:768px) {
+    #logo{
+       display: block; 
+       text-align: center;
+    }
+    #bar{
+        display: block ;
+        text-align: left;
+    }
+    .ancDiv{
+        display: none;
+    }
+    .cartDiv{
+        display: block ;
+    }
+}
+@media screen and (max-width:480px) {}
