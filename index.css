@@ -30,6 +30,9 @@ header{
 #bar{
     display: none;
 }
+.cartDiv{
+    display: none;
+}
 /* banner part style */
 .banner{
 display: flex;
@@ -70,11 +73,28 @@ align-items: center;
     display: flex;
     justify-content: end;
 }
+
 #camImg{
     width: 475px;
     height: auto;
 }
-
+.brandsec{
+    width: 1110px;
+    height: 110px;
+    position: center;
+    margin-top: 70px;
+    box-shadow: 0px -2px 5px #C0CCDA;
+}
+.brName{
+    width: 100px;
+    height: auto;
+    padding: 0px 20px;
+}
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width:1024px) {}
 @media screen and (max-width:834px) {
     #camImg{
@@ -89,16 +109,15 @@ align-items: center;
 @media screen and (max-width:768px) {
     #logo{
        display: block; 
-       text-align: center;
     }
     #bar{
         display: block ;
-        text-align: left;
     }
-    .ancDiv{
+    .nvt a{
         display: none;
     }
-    .cartDiv{
+    #
+    .cart{
         display: block ;
     }
 }
