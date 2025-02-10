@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 .container{
     padding: 95px 120px ;
@@ -185,7 +186,83 @@ box-shadow: 0px 0px 10px rgba(190, 188, 188, 0.712);
     margin-right: 221px;
     margin-top: 50px;
 }
-
+#lastHead{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+#lastText{
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+#lastBtn{
+    border: none;
+    background-color:#E02C6D;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    padding: 10px 24px;
+    height: 44px;
+    width: 155px;
+}
+.lastDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.lastHalf{
+    width: 50%;
+}
+.podPic{
+    margin-left: 151px;
+}
+.podText{
+    margin-right: 165px;
+}
+footer{
+    background-color: black;
+}
+.foothd{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    margin-top: 50px;
+    margin-bottom: none;
+}
+#warn{
+    color: #D9DBE1;
+    text-align: center;
+    font-family: "Manrope", serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+#right{
+    color: #D9DBE1;
+    font-family: "Manrope", serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.platform{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.platDiv{
+    margin-right: 16px;
+}
 
 @media screen and (max-width:1024px) {
     .brandsec{
